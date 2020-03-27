@@ -109,11 +109,11 @@ return(
       <FormGroup>
         <Label for="exampleSelect">Position Title</Label>
         <Input type="select" name="select" id="exampleSelect" onChange={inputChange}>
-          <option value={formState.select} >Full Stack Developer</option>
-          <option value={formState.select} >Front-End Developer</option>
-          <option value={formState.select} >Javascript</option>
-          <option value={formState.select} >IT Specialist</option>
-          <option value={formState.select} >Other</option>
+          <option value="Full Stack Developer" >Full Stack Developer</option>
+          <option value="Front-End Developer" >Front-End Developer</option>
+          <option value="Javascript" >Javascript</option>
+          <option value="IT Specialist" >IT Specialist</option>
+          <option value="Other">Other</option>
         </Input>
       </FormGroup>
       
